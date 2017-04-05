@@ -104,6 +104,21 @@ Signatures
 ---------
 
 
+### `byPattern(srcDir, destDir, compiler, options)`
+
+Define compile task by pattern
+
+| Param | type | Description |
+| ---- | --- | ----------- |
+| srcDir | string |  Source directory name |
+| destDir | string |  Destination directory name |
+| compiler | function |  Compiler function |
+| options | Object |  Optional settings |
+| options.pattern | string&amp;#124;string[] |  File name pattern |
+| options.watchDelay | number |  Delay after watch |
+| options.namer | function |  Filename convert function |
+
+
 ### `define(src, dest, compiler, options) -> function`
 
 Define task
