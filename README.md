@@ -116,7 +116,7 @@ Define compile task by pattern
 | options | Object |  Optional settings |
 | options.pattern | string&amp;#124;string[] |  File name pattern |
 | options.watchDelay | number |  Delay after watch |
-| options.watchTargets | string[] |  Additional watch targets |
+| options.watchTargets | string[] |  Additional watch target filenames |
 | options.namer | function |  Filename convert function |
 
 
