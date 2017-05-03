@@ -26,6 +26,7 @@
     "aglob": "^2.0.1",
     "asfs": "^1.2.3",
     "co": "^4.6.0",
+    "minimatch": "^3.0.3",
     "pon-task-watch": "^2.0.2"
   },
   "devDependencies": {
