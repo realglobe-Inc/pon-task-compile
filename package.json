@@ -1,6 +1,6 @@
 {
   "name": "pon-task-compile",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "description": "Pon task to compile file",
   "main": "lib",
   "browser": "shim/browser",
