@@ -6,21 +6,20 @@
 
 const byPattern = require('../lib/by_pattern.js')
 const ponContext = require('pon-context')
-const { ok } = require('assert')
-const co = require('co')
+const {ok} = require('assert')
 
 describe('by-pattern', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(async () => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('By pattern', () => co(function * () {
+  it('By pattern', async () => {
     let ctx = ponContext()
     let task = byPattern(
       __dirname,
@@ -32,9 +31,9 @@ describe('by-pattern', function () {
     )
     ok(task)
 
-    let results = yield Promise.resolve(task(ctx))
+    let results = await Promise.resolve(task(ctx))
     ok(results)
-  }))
+  })
 })
 
 /* global describe, before, after, it */

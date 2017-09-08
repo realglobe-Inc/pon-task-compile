@@ -6,7 +6,7 @@
 
 const define = require('../lib/define.js')
 const ponContext = require('pon-context')
-const { ok } = require('assert')
+const {ok} = require('assert')
 const co = require('co')
 
 describe('define', function () {
@@ -20,7 +20,7 @@ describe('define', function () {
 
   }))
 
-  it('Define', () => co(function * () {
+  it('Define', async () => {
     let ctx = ponContext()
     let task = define(
       __filename,
@@ -30,9 +30,9 @@ describe('define', function () {
     )
     ok(task)
 
-    let results = yield Promise.resolve(task(ctx))
+    let results = await Promise.resolve(task(ctx))
     ok(results)
-  }))
+  })
 })
 
 /* global describe, before, after, it */
