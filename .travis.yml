@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-- '8'
+- '10'
 before_install:
 - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
 - npm install jsdoc publish-if-needed npm@latest -g
@@ -9,7 +9,6 @@ install:
 - npm install
 script:
 - "./ci/build.js"
-- "./ci/shim.js"
 - "./ci/test.js"
 after_success:
 - publish-if-needed

@@ -1,11 +1,10 @@
 {
   "name": "pon-task-compile",
-  "version": "3.0.4",
+  "version": "4.0.0",
   "description": "Pon task to compile file",
   "main": "lib",
-  "browser": "shim/browser",
   "scripts": {
-    "prepare": "node ./ci/build.js && node ./ci/shim.js ",
+    "prepare": "node ./ci/build.js",
     "test": "node ./ci/test.js"
   },
   "repository": "realglobe-Inc/pon-task-compile",
@@ -29,7 +28,6 @@
     "pon-task-watch": "^2.3.0"
   },
   "devDependencies": {
-    "ababel": "^4.0.9",
     "amocha": "^5.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
@@ -43,7 +41,7 @@
     "pon-doc": "^2.0.1"
   },
   "engines": {
-    "node": ">=8",
-    "npm": ">=5"
+    "node": ">=10",
+    "npm": ">=6"
   }
 }
