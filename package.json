@@ -1,6 +1,6 @@
 {
   "name": "pon-task-compile",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Pon task to compile file",
   "main": "lib",
   "scripts": {
