@@ -1,6 +1,6 @@
 {
   "name": "pon-task-compile",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "description": "Pon task to compile file",
   "main": "lib",
   "scripts": {
@@ -28,14 +28,14 @@
     "pon-task-watch": "^2.3.0"
   },
   "devDependencies": {
-    "amocha": "^5.0.0",
+    "amocha": "^5.0.1",
     "ape-doc": "^2.0.4",
-    "ape-formatting": "^1.0.2",
-    "ape-releasing": "^5.0.0",
+    "ape-formatting": "^2.0.0",
+    "ape-releasing": "^5.0.1",
     "ape-tasking": "^4.0.9",
     "ape-tmpl": "^6.0.12",
     "ape-updating": "^5.0.1",
-    "coz": "^7.0.7",
+    "coz": "^7.0.8",
     "injectmock": "^2.0.0",
     "pon-context": "^3.0.2",
     "pon-doc": "^2.0.1"
